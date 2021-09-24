@@ -1,0 +1,35 @@
+*
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body
+        {
+            background: linear-gradient(-100deg ,#42abff, #ff4f8b ,#ffeb3b);
+            min-height: 84vh;
+        }
+        h1
+        {
+            color: #ffffff;
+            margin-top: 20%;
+            font-size: 60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .ul
+        {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            font-size: 22px;
+            margin-top: 14%;
+        }
+
+        a{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            font-size: 22px;
+            margin-top: 14%;
+            text-decoration: none;
+        }
