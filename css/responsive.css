@@ -1,0 +1,21 @@
+#navbar{
+  flex-direction: column;  
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#hero{
+  padding: 3px 68px;  
+  height: 400px;
+}
+
+.h1-hero{
+   font-size: 26px;
+}
+
+#home{
+    font-size: 13px;
+}
