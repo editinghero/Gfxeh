@@ -12,3 +12,5 @@ https://editinghero.github.io/gfx-eh.tech/
 
 ©Editinghero
 https://bit.ly/editingheroyt
+
+contract@gfx-eh.tech

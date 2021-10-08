@@ -2,6 +2,22 @@
   margin: 0;
   padding: 0;
 }
+
+/* html{
+  background: linear-gradient(-100deg,#42abff, #ff4f8b ,#ffeb3b) no-repeat center center/cover;
+  min-height: 100vh;
+  min-width: 100vh;
+} */
+
+/* OR */
+
+html{
+  background: url("../img/bg.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%
+} 
+
+
 /* navigation bar */
 
 #navbar{
@@ -29,6 +45,8 @@
   color: white;
   list-style: none;
   font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 #navbar ul li a{
@@ -37,12 +55,16 @@
   border-radius: 20px;
   display: block;
   text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 
 #navbar ul li a:hover{
-  color: rgb(191, 255, 223);
-  transform: translateY(-5px);
+  color: rgb(255, 208, 0);
+  transform: translateY(-3px);
+  border: 1px solid white;
+  transition: 0.3s;
 } 
 
 /* logo */
@@ -68,19 +90,13 @@
   height: 449px;
 }
 
-#hero::before{
-  content: '';
-  position: absolute;
-  background: url("img/bg.jpg") no-repeat center center/cover;
-  height: 100%;
-  width: 100%;
-  opacity: 0.90;
-}
+
 
 .h1-hero{
   font-size: 3.5rem;
   padding: 25px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 #hero h1{
@@ -91,15 +107,16 @@
   text-align: center; 
   color: white;
   font-size: 1.1rem;
-  font-family: 'Franklin Gothic Medium', Arial;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .btn{
-  padding: 6px 20px;
+  padding: 10px 23px;
   border: none;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.2);
   color: white;
-  margin: 17px;
+  margin: 25px;
   font-size: 1rem;
   border-radius: 9px;
   cursor: pointer;
@@ -112,4 +129,11 @@
 .btn a{
   text-decoration: none;
   color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.btn:hover{
+  transition: 0.3s;
+  transform: translateY(-4px);
 }

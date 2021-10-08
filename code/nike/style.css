@@ -141,3 +141,9 @@ button:hover{
     background: #aa0505;
     transform: translateY(-5px);
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}

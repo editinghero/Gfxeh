@@ -1,59 +1,88 @@
 *{
-    margin: 0;
-    padding: 0;
-  }
-  /* navigation bar */
-  
-  #navbar{
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  
-  #navbar::before{
-    content: '';
-    background: black;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -3;
-    opacity: 0.5;
-  
-  }
-  
-  #navbar ul{
-    display: flex;
-  }
-  
-  #navbar ul li{
-    color: white;
-    list-style: none;
-    font-size: 1.3rem;
-  }
-  
-  #navbar ul li a{
-    color: white;
-    padding: 22px 22px;
-    border-radius: 20px;
-    display: block;
-    text-decoration: none;
-  
-  }
-  
-  #navbar ul li a:hover{
-    color: rgb(191, 255, 223);
-    transform: translateY(-5px);
-  } 
-  
-  /* logo */
-  
-  #logo{
-    margin: -1px 9px;
-  }
-  
-  #logo img{
-    margin: -10px 129px;
-    height: 77px;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background: linear-gradient(-100deg,#42abff, #ff4f8b ,#ffeb3b) no-repeat center center/cover;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+h1{
+  color: #ffffff;
+  margin-top: 15%;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ul{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 14%;       
+}
+
+a{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 14%;
+  text-decoration: none;
+}
+
+
+
+/* navbar */
+#navbar{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+        
+#navbar::before{
+  content: '';
+  background: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+  opacity: 0.5;
+}
+        
+#navbar ul{
+  display: flex;
+}
+        
+#navbar ul li{
+  color: white;
+  list-style: none;
+  font-size: 1.3rem;
+}
+      
+#navbar ul li a{
+  color: white;
+  padding: 3px 22px;
+  border-radius: 20px;
+  display: block;
+  text-decoration: none;
+  margin-top: 0;
+}        
+#navbar ul li a:hover{
+  color: rgb(255, 208, 0);
+  transform: translateY(-3px);
+  border: 1px solid white;
+  transition: 0.3s;
+} 
+        /* logo */
+        
+#logo{
+  margin: -1px 9px;
+}
+        
+#logo img{
+  margin: -10px 129px;
+  height: 77px;
+}
+        
