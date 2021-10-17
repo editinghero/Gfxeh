@@ -6,31 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gFx - eH / CODING</title>
+
+    <!-- googel fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- googel fonts -->
+
+
+    <!-- boostraps -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- boostraps -->
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 800px)" href="responsive.css">
 </head>
 
 <body>
-
     <nav id="navbar">
         <div id="logo">
-            <img src="../img/logo.png" alt="Editing hero">
+            <a href="../index.html"><img src="../img/logo.png" alt="Editing hero"></a>
         </div>
         <ul>
-            <li class="item"><a href="../index.html">Back To Home</a></li>
-            <li class="item"><a href="#">Youtube</a></li>
-            <li class="item"><a href="#">Instagram</a></li>
-            <li class="item"><a href="../blog/index.html">Blog</a></li>
+            <li class="item"><a href="../index.html">Home</a></li>
+            <li class="item"><a href="https://www.youtube.com/channel/UCS0dCdgMiThpUl1reVovdMw"
+                target="_blank">Youtube</a></li>
+                <li class="item"><a href="https://www.instagram.com/editing.hero/" target="_blank">Instagram</a></li>
+            <li class="item"><a href="../blog/index.html" target="_blank">Blog</a></li>
+            <li class="item"><a class="active" href="index.html">Code</a></li>
+            <li class="item"><a href="../gfx/index.html" target="_blank">Gfx</a></li>
         </ul>
     </nav>
-    <div class="content">
-        <H1 align="center">View My Projects</H1>
-        <ul align="right" class="ul">
-            <ol><a href="nike/index.html">Nike Website </a></ol>
-            <ol><a href="bueautifulLoader/index.html">Beautiful Loader </a></ol>
-            <ol><a href="gradientshadow/index.html">Gradient Shadow </a></ol>
-        </ul>
-    </div>
+    <div class="cover">
+        <section id="hero">
+            <h1 class="h1-hero">
+                Editing hero's Code Projects:
+            </h1>
+        </section>
+        <!-- back to top arrow -->
+        <back-to-top>
+            <a href="#hero"><img src="../img/arrow-up-solid.svg" alt="Back to top"></a>
+        </back-to-top>
+        <!-- back to top arrow -->
+
+        <!-- progress bar not mine ©️online tutorils youtube -->
+        <div id="scrollpath"></div>
+        <div id="progressbar"></div>
+        <!-- progress bar not mine ©️online tutorils youtube -->
+        <script src="../js/index.js"></script>
 </body>
 
 </html>

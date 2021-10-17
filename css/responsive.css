@@ -1,21 +1,10 @@
-#navbar{
-  flex-direction: column;  
-}
-
-#navbar ul li a{
-    font-size: 1rem;
-    padding: 0px 7px;
-    padding-bottom: 8px;
-}
-#hero{
-  padding: 3px 68px;  
-  height: 400px;
-}
-
-.h1-hero{
-   font-size: 26px;
-}
-
-#home{
-    font-size: 13px;
-}
+#navbar{flex-direction: column;}
+#logo img{height: 60px;margin: -8px 0 0 0;}
+#navbar ul li a{font-size: 1rem;padding: 0px 7px;margin: 0 0 10px 0;}
+#hero{padding: 3px 68px;height: 100vh;}
+.h1-hero{font-size: 26px;}
+#home{font-size: 13px;}
+.ed{height: 33rem;}
+.summary{font-size: 1.3rem;}
+.d-none{display: block !important}
+.d-none h5{font-size: 1rem;}.d-none p{display: none;}

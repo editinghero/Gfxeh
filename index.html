@@ -6,36 +6,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GfX eH TeCh</title>
+
+    <!-- googel fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- googel fonts -->
+
+
+    <!-- boostraps-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- boostraps-->
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font-awesome -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="aos.css">
+    <!-- aos -->
+
+
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/responsive.css">
 </head>
 
 <body>
+
+    <!-- navbar start -->
     <nav id="navbar">
+
         <div id="logo">
-            <img src="img/logo.png" alt="Editing hero">
+            <a href="index.html"><img src="img/logo.png" alt="Editing hero"></a>
         </div>
+
         <ul>
-            <li class="item"><a href="index.html">Home</a></li>
-            <li class="item"><a href="#">Youtube</a></li>
-            <li class="item"><a href="#">Instagram</a></li>
-            <li class="item"><a href="blog/index.html">Blog</a></li>
+            <li class="item active"><a class="active" href="#hero">Home</a></li>
+            <li class="item"><a href="https://www.youtube.com/channel/UCS0dCdgMiThpUl1reVovdMw"
+                    target="_blank">Youtube</a></li>
+            <li class="item"><a href="https://www.instagram.com/editing.hero/" target="_blank">Instagram</a></li>
+            <li class="item"><a href="blog/index.html" target="_blank">Blog</a></li>
         </ul>
     </nav>
-    <section id="hero">
-        <h1 class="h1-hero">
-            Welcome to Editing Hero
-        </h1>
+    <!-- navbar end -->
 
-        <p>
-            Which Type Of Website You Want To Visit
-        </p>
-        <div class="button">
-            <button class="btn"><a href="gfx/index.html">Gfx Website</a></button>
-            <button class="btn"><a href="code/index.html">Coding Website</a></button>
-        </div>
+    <!-- hero start -->
+    <div class="cover">
+        <section id="hero">
+            <h1 class="h1-hero">
+                Welcome to Editing Hero
+            </h1>
+
+            <p>
+                Which Type Of Website You Want To Visit ?
+            </p>
+            <div class="button">
+                <button class="bttn"><a href="gfx/index.html">Gfx Website</a></button>
+                <button class="bttn"><a href="code/index.html">Coding Website</a></button>
+            </div>
+        </section>
+    </div>
+    <!-- hero end -->
+
+    <!-- youtube start  -->
+    <section class="youtube">
+        <a href="https://www.youtube.com/channel/UCS0dCdgMiThpUl1reVovdMw" target="_blank"><img src="img/logo.png"
+                alt="Editing hero youtube"></a>
     </section>
+    <!-- youtube end  -->
+    <!-- about start  -->
+    <div class="about">
+        <div class="container ed">
+            <div class="row content">
+                <div class="box col-lg-6 pt-4">
+                    <br><br><br>
+                    <details>
+                        <summary class="summary">What Is Coding Website?</summary> <br>
+                        <h6>In coding Website you get my all project which I created from coding skill and you can
+                            get
+                            download link of my (trickyboy) youtube chamnel , you can visit and see all my project
+                            work and
+                            download files</h6>
+                    </details>
+                </div>
+                <div class="box col-lg-6 pt-4 ">
+                    <br><br><br>
+                    <details>
+                        <summary class="summary">What Is Gfx Website?</summary><br>
+                        <h6>In gfx Website you will get my (editinghero) youtube channel download links and my
+                            graphic work,
+                            client work , you can visit and see all my gfx work and download files</h6>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end  -->
 
+    <!-- card start -->
+
+    <div class="card-container">
+        <div class="card" style="width: 18rem;">
+            <img src="img/logo.png" class="card-img-top" alt="EditingHero">
+            <div class="card-body">
+                <h5 class="card-title">Editing Hero</h5>
+                <p class="card-text"><b>Visit </b>Editing hero youtube channel and subscribe it to get gfx videos
+                    notification and some amazing gfx desgin video</p>
+                <a href="https://www.youtube.com/channel/UCS0dCdgMiThpUl1reVovdMw" target="_blank"
+                    class="btn btn-outline-danger card-btn">Subscribe Now</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; ">
+            <img src="img/logo2.png" class="card-img-top" alt="TrickyBoy">
+            <div class="card-body">
+                <h5 class="card-title">Tricky Boy</h5>
+                <p class="card-text"><b>Visit </b>Tricky Boy youtube channel and subscribe it to get codding videos
+                    notification and some amazing html,css,js designing video</p>
+                <a href="#" target="_blank" class="btn card-btn btn-outline-danger">Subscribe Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- card end -->
+    <!-- corousel start -->
+    <div class="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/bg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Thumbnail tutorils</h5>
+                        <p>Create Awm Thumbnail For pubg mobile </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/bg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Motion Gfx Tutorial</h5>
+                        <p>Minmla Intro In Kine Master | Pixellab | Tutorial</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/bg.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Many Pack</h5>
+                        <p>GFX pack (android/ios) best 2020</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- carousel end -->
+
+    <!-- back to top arrow -->
+    <back-to-top>
+        <a href="#hero"><img src="img/arrow-up-solid.svg" alt="Back to top"></a>
+    </back-to-top>
+    <!-- back to top arrow -->
+
+    <!-- progress bar not mine ©️online tutorils youtube -->
+    <div id="scrollpath"></div>
+    <div id="progressbar"></div>
+    <!-- progress bar not mine ©️online tutorils youtube -->
 </body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
 
 </html>
