@@ -159,3 +159,11 @@ summary:hover{transform:translateY(-3px);}
   width: 100vh;
   margin: 0;
 }
+#preloader{
+  background: white url('../img/loader.gif') no-repeat center center;
+  /* background-size: 50%; */
+  width: 100%;
+  position: fixed;
+  z-index: 400;
+  height: 100vh;
+}
