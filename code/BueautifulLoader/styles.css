@@ -56,7 +56,7 @@ body{
     border-radius: 50%;
     filter: blur(5px);
     background: linear-gradient(#42abff,#ff4f8b,#ffeb3b);
-    animation: animate 1s linear infinite;
+    animation: animate 2s linear infinite;
 }
 
 @keyframes animate
