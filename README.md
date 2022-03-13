@@ -3,7 +3,7 @@
 Content Available is FREE 
 
 visit 
-https://git.gfx-eh.tech
+https://ehgithub.ga/
 
 if dosent work then visit
 
