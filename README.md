@@ -1,3 +1,3 @@
 # gfxeh 
 
-https://editinghero.github.io/gfxeh/
+https://editinghero.github.io/Gfxeh/
