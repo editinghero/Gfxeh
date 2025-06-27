@@ -1,4 +1,4 @@
-# gfx-eh.tech
+# gfxeh
 
 Content Available is FREE 
 
